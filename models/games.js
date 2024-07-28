@@ -16,6 +16,7 @@ const gameSchema = new mongoose.Schema({
     }
 })
 
+//hello world
 // Super Mario Bros.
 // EJS_player = "#game";
 // EJS_core = "nes";
