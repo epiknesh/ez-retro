@@ -1,4 +1,8 @@
 {
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "My Express application",
+  "main": "server.js",
   "dependencies": {
     "body-parser": "^1.20.2",
     "connect-flash": "^0.1.1",
@@ -19,6 +23,7 @@
     "nodemon": "^3.1.2"
   },
   "scripts": {
-    "s": "nodemon server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js" 
   }
 }
